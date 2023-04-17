@@ -1,0 +1,2248 @@
+
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2329.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1979.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '00'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 321758.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '001'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 209321.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '00188'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2498.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '012951'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 139884.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0172'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 370553.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0173'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 179340.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0175'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 468111.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0176'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 296175.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0177'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 128443.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0178'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 137710.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0180'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 251964.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0181'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 421.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0182'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 311913.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0185'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 325505.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0186'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 240657.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '0187'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 5.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '02121'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 37547.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '06620'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 434.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '10485'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 188773.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11060'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 8830.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11062'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 32309.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11063'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 39353.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11065'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 41057.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11066'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 14807.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11067'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 31517.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11068'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2619.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11069'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 46418.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11070'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 11.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11071'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 5694.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11075'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1770920.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11077'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 9899.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11105'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 266.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11181'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 4348294.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1147'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 275024.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1148'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 4588.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1149'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 86792.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11586'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 97221.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11587'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 7599.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11588'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 10176.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11589'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 39009.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11590'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 143098.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11591'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 757.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11592'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11593'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 19706.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11601'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 14579.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11620'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 73347.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11643'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 7278.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11644'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 8804.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11645'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 111425.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11646'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 322.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11647'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 323.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11648'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 61842.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11649'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 4498.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11650'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 3123.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11682'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2526.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11683'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11684'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 3567.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11687'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11695'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 932.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11696'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2589.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11740'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 7.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11741'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 239.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11743'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1481.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11744'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 264.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11745'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 9.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11746'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 268.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11747'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11910'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11911'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11912'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11913'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11914'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11915'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11916'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11923'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '11924'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2261790.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12594'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 75547.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12595'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 188464.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12700'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1512995.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12701'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2477.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12702'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 7946.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12703'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 212962.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12704'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 60200.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12705'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 27661.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12706'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12710'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 22065.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12711'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 7469.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12763'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12828'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 52383.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '12936'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1423'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 210816.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1424'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 188607.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1425'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 187278.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1426'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 229593.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1427'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 288434.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1428'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 287827.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1477'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 180794.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1478'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 351814.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1481'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 252758.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1484'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 10410.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1486'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 269994.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1487'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1225.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1494'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 123116.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1496'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 130632.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1515'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 126826.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1517'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 284070.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1519'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 182121.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1520'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2961955.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1538'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 6565.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1540'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 146265.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1541'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 455370.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1546'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 133098.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '1557'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 60850.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '20081200'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 455656.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2015'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 233181.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2016'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 199521.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2017'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 375439.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2018'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 721728.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2019'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 314254.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2020'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 31685.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2021'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 304781.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2022'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 277591.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2023'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 277398.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2024'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 213724.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2025'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 446246.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2026'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 630370.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2027'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 303377.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2028'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 72620.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2029'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 26180.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2030'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 35048.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2031'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 379600.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2032'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 26464.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2033'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 4143.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2034'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 69518.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2035'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 62969.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2036'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 41717.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2037'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 8750.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2038'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 112890.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2039'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 186004.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2040'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 167631.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2041'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 252709.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2042'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 247665.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2043'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 93240.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2045'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 25756.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2046'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 251571.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2047'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 33534.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2048'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 3995.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2049'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 217594.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2050'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 42.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2051'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 6199230.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2052'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 38.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2054'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 48729.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2055'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 99.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2056'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2057'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 134511.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2058'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 8135.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2059'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 887766.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2060'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2256.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2061'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 6919.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2064'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 142456.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2066'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 14459.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2067'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 3214.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2069'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 332504.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2071'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 9.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2073'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 43852.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2074'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 854.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2121'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 621731.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2131'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 442869.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2132'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 361583.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2133'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 196546.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2134'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 42600.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2257'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 362723.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2280'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 443200.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2281'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 358088.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2282'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 368979.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2286'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 210111.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2799'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 211378.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2801'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 228728.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2802'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 156297.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2922'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 223839.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '2923'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 237236.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3250'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 247436.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3251'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 281745.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3252'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 250831.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3253'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 133682.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3254'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 29371.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3256'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 174449.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3257'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 31666.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3258'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 27172.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3259'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 16571.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3260'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 799082.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3261'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 801308.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3262'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 246628.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3263'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 318643.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3264'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 11171.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3265'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 208937.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3266'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 90601.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3267'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 7901404.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3268'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3269'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 40106.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3270'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 33.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3271'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1150.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3272'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1158.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3273'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3274'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3275'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3276'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3277'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3278'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3279'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3280'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 151721.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3281'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 121685.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3282'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 8243.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3283'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 167972.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3284'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 668755.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3285'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 809013.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3510'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 985.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3511'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 10104.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3512'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2439916.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3513'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 100056.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3563'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 8683.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3567'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 7.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '35688'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 222287.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3569'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 229847.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3570'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 254075.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3571'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 281534.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3572'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 120984.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3573'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 388607.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '35744'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 227310.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '3575'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '38'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 82244.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '6314'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 267401.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '6617'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1305060.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '6647'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 707790.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '6694'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 154814.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '6726'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 295103.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '6731'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 228988.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '6859'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 213974.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7000'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 141389.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7003'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 285084.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7019'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2757.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7031'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 6596.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7032'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 51054.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7033'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 313779.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7034'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 240600.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7035'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 410128.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7036'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 175510.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7037'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7181'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7182'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2407.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7183'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 206423.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7184'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1787.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7185'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 3078.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7186'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 230311.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7363'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 78781.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7565'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 3048.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7584'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 143665.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7676'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 290034.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7677'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 281687.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7678'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 220225.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7741'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 99582.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7759'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 371744.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7760'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2840.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7761'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 0.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7762'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 7897.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7763'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 643502.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7764'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 399358.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7820'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 322230.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7841'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 76588.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7843'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 187588.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7846'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 249402.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7847'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 2218.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7848'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 95426.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7849'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 81250.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7850'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 527993.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7994'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 556574.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7995'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 107132.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7996'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 160992.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7997'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 101131.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7998'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 97206.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '7999'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 135668.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8099'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 142803.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8100'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 73028.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8101'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 799819.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8102'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 134034.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8103'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 137780.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8104'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 139915.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8105'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 388401.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8106'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 300767.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8336'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 121607.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8375'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1933616.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8376'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 59934.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8423'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 90724.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8424'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 1478678.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8525'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 239026.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8589'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 318260.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8676'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 83266.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8760'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 96910.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8761'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 694558.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8762'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 104857.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8763'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 24561.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8764'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 673.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8766'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 124968.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8769'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 3226.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8770'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 666666.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8772'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 301423.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8795'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 281907.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8796'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 189999.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8797'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 279437.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8798'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 154236.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8865'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 204792.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8866'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 8783.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8867'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 9595.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '8869'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 310533.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '9744'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 12455.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '9780'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 193994.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '9989'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 65829.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '9990'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 91938.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '9998'); 
+ update SCF_VEICULOCONTROLESIMAM cs set cs.VLRACUMULADORFINAL = 166890.000 where cs.IDVEICULOCONTROLESIMAM = (select cs.IDVEICULOCONTROLESIMAM from SCF_VEICULOCONTROLESIMAM cs
+                join SCF_VEICULO v on (cs.IDVEICULO = v.IDVEICULO)
+                join scp55_bem b on (b.idbem = v.idbem)
+                where
+                cs.dtlancamento between '27.12.2022' and '27.01.2023' and
+                v.CODENTIDADE = 39 and 
+                b.codbem = '9999'); 
