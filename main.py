@@ -51,4 +51,4 @@ def data_final():
         with open('Final'+file_name, 'a', encoding='utf-8') as file:
             file.write(f'\n{sql}')
 
-data_inicial()
+data_final()
