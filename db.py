@@ -6,7 +6,7 @@ user = "sysdba"
 password = "masterkey"
 host = "localhost"  # ou o endereço IP do servidor
 
-codEntidade = 53
+codEntidade = 432
 
 # String de conexão.
 dsn = f"{host}:{database_path}"
